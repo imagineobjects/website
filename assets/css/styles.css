@@ -1,0 +1,158 @@
+
+body{
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+.btn{
+    height: 66px;
+    padding:10px 50px;
+    color: #fff;
+    font-size: 25px;
+}
+.btn-primary{
+    background: #FF4A4A;
+    border-radius: 5px;
+    border: 1px solid #FF4A4A;
+}
+.spaccer{
+    padding: 100px 0px;
+}
+.bg-wrapper{
+    background-color: #E0115F;
+}
+.container{
+    max-width: 1200px;
+}
+header{
+    background:#484848;
+    height: 56px;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    z-index: 9;
+}
+.banner{
+    background:#484848;
+    padding: 130px 0 117px;
+    position: relative;
+}
+.banner h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.banner h1 span{
+    display: block;
+    font-weight: 300;
+}
+.filler{
+    position: absolute;  
+    
+}
+.filler-one{
+    left: 50%;
+    top: 0px;
+    z-index: 91;
+    margin-left: -75px;
+}
+.filler-two{
+   left: 0px;
+   bottom: 0px;  
+}
+.filler-three{
+    right: 0px;
+    bottom: 0px; 
+}
+.filler-fourth{
+    left: 50%;
+    bottom: 0px; 
+    margin-left:-70px ;
+}
+.filler-five{
+    right: 0px;
+    top: 0px; 
+   z-index:91 ;
+}
+
+.about-info h2{
+    font-size: 36px;;
+}
+.about-info p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.head-section h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.head-section p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.form-control{
+    height: 55px;
+    border-radius: 5px;
+    border-color: #fff;
+}
+textarea.form-control{
+    height: auto;
+}
+.btn.btn-primary-black{
+    background-color: #000000;
+}
+.btn.btn-primary-black:hover{
+    background-color: #0a58ca;
+}
+footer{
+    padding:20px 0px;
+}
+footer a{
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.social-links a{
+    background-color: #484848;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .banner h1{
+        font-size: 33px;
+    }
+    .filler-one{
+        display: none;
+    }
+    .btn.btn-primary-black{
+        width: 100%;
+    }
+    .about-info{
+        margin-top: 20px;;
+    }
+    footer{
+        text-align: center;
+    }
+  }
